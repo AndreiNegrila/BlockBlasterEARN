@@ -6,7 +6,7 @@
   <title>Bezahlt werden fürs Spielen</title>
   <link rel="icon" href="data:,">
   <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; } 
     :root {
       --bg:           #07050f;
       --card:         #100d1f;
@@ -33,7 +33,7 @@
     .page {
       width: 100%;
       max-width: 430px;
-      padding: 64px 18px 24px;
+      padding: 20px 18px 24px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -156,7 +156,7 @@
       display: flex;
       gap: 8px;
       width: 100%;
-      margin-bottom: 0;
+      margin-bottom: 24px;
       align-items: stretch;
     }
     .step-card {
@@ -187,7 +187,8 @@
     /* FOOTER */
     footer {
       display: flex; flex-direction: column; align-items: center; gap: 5px;
-      width: 100%;
+      margin-top: 8px; padding-top: 16px;
+      border-top: 1px solid #1f1640; width: 100%;
     }
     .footer-links { display: flex; gap: 14px; flex-wrap: wrap; justify-content: center; }
     .footer-links a { font-size: 10.5px; color: var(--muted); text-decoration: none; }
@@ -281,7 +282,6 @@
     </div>
   </div>
 
-  <div style="height:60px;width:100%;"></div>
   <footer>
     <div class="footer-links">
       <a href="#">Datenschutz</a>
